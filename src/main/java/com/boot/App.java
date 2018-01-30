@@ -1,0 +1,16 @@
+package com.boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * Created by anjalhussan on 1/28/18.
+ */
+
+@SpringBootApplication
+public class App {
+
+    public static void main(String[] args){
+        SpringApplication.run(App.class, args);
+    }
+}
